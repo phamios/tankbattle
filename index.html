@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="__BUILD_TIME" content="" />
+  <meta name="__BUILD_VERSION" content="" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Battle City</title>
+</head>
+
+<body>
+  <div id="container">
+    <div id="video-container">
+      <canvas id="game" width="416" height="416"></canvas>
+    </div>
+    <div id="tips-container" class="hide">
+      <div id="operate-tips">
+        <h2>游戏操作</h2>
+        <div class="operate-group">
+          <h3>玩家一</h3>
+          <div>
+            <div class="opt-btn">左<div>A</div>
+            </div>
+            <div class="opt-btn">上<div>W</div>
+            </div>
+            <div class="opt-btn">下<div>S</div>
+            </div>
+            <div class="opt-btn">右<div>D</div>
+            </div>
+            <div class="opt-btn">单发<div>G</div>
+            </div>
+            <div class="opt-btn">连发<div>H</div>
+            </div>
+            <div class="opt-btn">选择<div>V</div>
+            </div>
+            <div class="opt-btn">开始<div>B</div>
+            </div>
+          </div>
+        </div>
+        <div class="operate-group">
+          <h3>玩家二</h3>
+          <div>
+            <div class="opt-btn">左<div>←</div>
+            </div>
+            <div class="opt-btn">上<div>↑</div>
+            </div>
+            <div class="opt-btn">下<div>↓</div>
+            </div>
+            <div class="opt-btn">右<div>→</div>
+            </div>
+            <div class="opt-btn">单发<div>k</div>
+            </div>
+            <div class="opt-btn">连发<div>l</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="copy-right">
+        DISIN BY HEC9527
+      </div>
+
+    </div>
+
+    <div id="controller-container">
+      <div id="layout">
+        <div>布局</div>
+      </div>
+
+      <div id="control-wrap">
+        <div class="control" id="control">
+          <div id="rocker"></div>
+        </div>
+      </div>
+
+      <div class="menu" id="menu">
+        <div id="select" class="btn">SELECT</div>
+        <div id="start" class="btn">START</div>
+      </div>
+
+      <div class="action" id="action">
+        <div id="A" class="btn">A</div>
+        <div id="C" class="btn">C</div>
+        <div id="B" class="btn">B</div>
+        <div id="D" class="btn">D</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/src/index.ts" type="module"></script>
+
+</body>
+
+</html>

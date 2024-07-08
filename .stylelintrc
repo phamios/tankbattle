@@ -1,0 +1,9 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-rational-order", "stylelint-config-prettier"],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "font-family-no-missing-generic-family-keyword": null,
+    "no-descending-specificity": null
+  },
+  "ignoreFiles": ["**/*.ts", "**/*.js"]
+}

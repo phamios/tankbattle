@@ -1,0 +1,23 @@
+{
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "editor.useTabStops": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "arrowdown",
+    "arrowleft",
+    "arrowright",
+    "arrowup",
+    "bilibili",
+    "easingthemes",
+    "micromessenger",
+    "pnpm",
+    "prestart",
+    "prstart"
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}
