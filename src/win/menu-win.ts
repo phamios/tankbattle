@@ -64,11 +64,11 @@ class MenuWin implements IGameWin, ISubScriber {
     ctx.fillRect(0, 0, config.canvas.width, config.canvas.height);
     ctx.fillStyle = config.colors.white_100;
     ctx.drawImage(R.Image.UI, 0, 0, 376, 136, 68, this.scrollY + 80, 376, 136);
-    ctx.fillText('© 2022 PRESENT', 146, this.scrollY + 400);
+    ctx.fillText('© 2024 PRESENT', 146, this.scrollY + 400);
     ctx.fillText('ALL RIGHTS RESERVED', 106, this.scrollY + 425);
     this.MenuCursor.draw(ctx);
     ctx.fillStyle = config.colors.red;
-    ctx.fillText('HEC9257', 202, this.scrollY + 375);
+    ctx.fillText('KRYPTONX', 202, this.scrollY + 375);
     ctx.restore();
   }
 
